@@ -6,7 +6,11 @@ reset
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}       
+}    
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
 
 .container{
     max-width: 1200px;
@@ -16,6 +20,13 @@ reset
 header .navbar{
     padding: 10px 0;
 }
+
+header .navbar{
+
+    background-color: #D95E2B;
+   
+}
+
 
 li{
     display: inline-block;
@@ -44,26 +55,95 @@ li{
 .button-header {
     width: calc(100% / 3);
     text-align: right;
+    
 }
+
 
 .boolean{
    width: 100px;
    height: 20px;
 }
 
+.frame{
+  
+        width: calc(100% / 3);
+        padding: 10px;
+        padding-bottom: 100px;
+        position: relative;
+}
+
+a{
+    color: white;
+}
 
 
+img{
+    width: 100%;
+    display: block; 
+    
+}
 
+.prezzo{
+    position: absolute;
+    bottom: 1px; 
+}
 
+p{
+    display: inline-block;
+}
 
+.red{
+    color: red;
+}
 
+.line-through{
+    text-decoration: line-through;
+}
+.photo1-3{
+    position: relative;
+    
+    
+}
 
-/* 
-debug 
-*/
+.discount1{
+    background-color: red;
+    color: white;
+    padding: 3px;
+    position: absolute;
+    left:0px;
+    bottom: 40px;
+}
 
-.debug header .navbar{
-    background-color: #D95E2B;
-   
+.green-discount{
+    background-color: darkgreen;
+    color: white;
+    padding: 3px;
+    position: absolute;
+    left:45px;
+    bottom: 40px;
 
 }
+
+.green-discount2{
+    background-color: darkgreen;
+    color: white;
+    padding: 3px;
+    position: absolute;
+    left:0px;
+    bottom: 40px;
+
+}
+
+
+.wishlist{
+    text-align: center;
+    color: black;
+    background-color: white;
+    position: absolute;
+    width: 40px;
+    right: 0px;
+    top: 20px;
+    font-size: 2em;
+    display: block;
+}
+
