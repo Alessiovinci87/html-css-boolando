@@ -147,3 +147,18 @@ p{
     display: block;
 }
 
+.footer{
+    background-color: black;
+    height: 100px;
+}
+
+.info{
+    padding:30px;
+
+}
+
+h3{
+    color: white;
+    padding-left: 10px;   
+}
+
