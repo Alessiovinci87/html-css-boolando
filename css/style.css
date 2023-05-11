@@ -15,10 +15,12 @@ reset
 .container{
     max-width: 1200px;
     margin: 0 auto;
+    position: relative;
 }
 
 header .navbar{
-    padding: 10px 0;
+    padding: 10px 10px;
+    
 }
 
 header .navbar{
@@ -55,6 +57,7 @@ li{
 .button-header {
     width: calc(100% / 3);
     text-align: right;
+    padding-right: 30px;
     
 }
 
@@ -149,11 +152,13 @@ p{
 
 .footer{
     background-color: black;
-    height: 100px;
+    
+    
 }
 
 .info{
-    padding:30px;
+    width: calc(100% / 2);
+    padding: 10px;
 
 }
 
@@ -162,3 +167,14 @@ h3{
     padding-left: 10px;   
 }
 
+.trovaci{
+    width: calc(100% / 2);
+    padding: 10px;
+    position: absolute;
+    left: 1000px;
+    top: 5px;
+}
+
+.social{
+    padding-left: 10px;
+}
